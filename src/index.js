@@ -3,26 +3,19 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-import { configureChains, chain, WagmiConfig, createClient } from "wagmi";
+import { configureChains, mainnet, WagmiConfig, createClient } from "wagmi";
 import { publicProvider } from "wagmi/providers/public";
-import { InjectedConnector } from 'wagmi/connectors/injected';
-import { polygon} from 'wagmi/chains';
 
-const { chains, provider } = configureChains(
-  [polygon],
+const { provider, webSocketProvider } = configureChains(
+  [mainnet],
   [publicProvider()]
 );
-
-const connector = new InjectedConnector({
-  chains
-})
 
 const client = createClient({
   autoConnect: true,
   provider,
-  connector,
+  webSocketProvider,
 });
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
