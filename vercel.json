@@ -1,8 +1,0 @@
-{
-  "builds": [
-    {
-      "src": "npm install -g npm@latest & npm run build",
-      "use": "@vercel/static-build"
-    }
-  ]
-}
