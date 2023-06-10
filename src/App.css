@@ -266,3 +266,53 @@ header {
   font-weight: 300;
   color: #51596f;
 }
+
+.Token-Logo{
+  height: 50px;
+  width: 50px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.total-supply{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.token-info{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px or smaller */
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .leftH,
+  .rightH {
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logo,
+  .eth {
+    padding-right: 10px;
+  }
+
+  .headerItem {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .connectButton {
+    padding: 5px;
+    font-size: 12px;
+  }
+}

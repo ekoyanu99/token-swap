@@ -105,3 +105,56 @@ code {
 .ant-modal-close-icon:hover {
   color: white !important;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px or smaller */
+
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .leftH,
+  .rightH {
+    gap: 10px;
+  }
+
+  .tradeBox {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .assetOne,
+  .assetTwo {
+    top: 100px;
+    right: 10px;
+  }
+
+  .switchButton {
+    top: 140px;
+    left: 50px;
+  }
+
+  .dollarAmount {
+    top: 125px;
+    left: 14px;
+    font-size: 8px;
+  }
+
+  .swapButton {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .modalContent {
+    margin-top: 10px;
+  }
+
+  .Token-Logo {
+    height: 30px;
+    width: 30px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+}

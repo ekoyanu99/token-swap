@@ -1,9 +1,9 @@
 [
     {
-        "ticker": "UNI",
-        "img": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
-        "name": "Uniswap",
-        "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "ticker": "1INCH",
+        "img": "https://tokens-data.1inch.io/images/0x111111111117dc0aa78b770fa6a738034120c302.png",
+        "name": "1INCH Token",
+        "address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
         "decimals": 18
     },
     {
@@ -12,6 +12,13 @@
         "name": "Tether USD",
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
         "decimals": 6
+    },
+    {
+        "ticker": "UNI",
+        "img": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
+        "name": "Uniswap",
+        "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "decimals": 18
     },
     {
         "ticker": "MATIC",
@@ -43,5 +50,33 @@
         "name": "Decentral Games ICE",
         "address": "0xc6c855ad634dcdad23e64da71ba85b8c51e5ad7c",
         "decimals": 18
+    },
+    {
+        "ticker": "SAND",
+        "img": "https://tokens.1inch.io/0xbbba073c31bf03b8acf7c28ef0738decf3695683.png",
+        "name": "SAND",
+        "address": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+        "decimals": 18
+    },
+    {
+        "ticker": "LINK",
+        "img": "https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png",
+        "name": "ChainLink Token",
+        "address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+        "decimals": 18
+    },
+    {
+        "ticker": "USDC",
+        "img": "https://tokens.1inch.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+        "name": "USD Coin (PoS)",
+        "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "decimals": 6
+    },
+    {
+        "ticker": "WBTC",
+        "img": "https://tokens.1inch.io/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599.png",
+        "name": "Wrapped BTC",
+        "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+        "decimals": 8
     }
 ]
